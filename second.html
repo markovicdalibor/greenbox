@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mr.GreenBox</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css\styleLeft.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+		<div class="container-fluid prva">
+			<div class="pull-left naziv">
+			<a href="index.html" style="color:#006400">Mr.GreenBox</a>
+			</div>
+		<ul class="pull-right">
+			<li id= "carticon"><a href="#" style="color:#006400"><span id="cou">0</span><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+			<li><a href="#" style="color:#006400"><span class="glyphicon glyphicon-user"></span> registruj se</a></li>
+			<li><a href="#" style="color:#006400"><span class="glyphicon glyphicon-log-in"></span> prijavi se</a></li>
+		</ul>
+		</div>
+    <header>
+		<div id= "naslov">
+        <a href="index.html"><h1 id="br">Mr.Green Box</h1></a>
+		</div>
+        <h2>Natural Beauty</h2>
+	</header>
+	  <nav class="navbar">
+		<div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li data-name="about"><a href="#" style="color:#006400">O nama</a></li>
+		  <li data-name="category"><a href="index.html" style="color:#006400">Aktuelno&Akcija</a></li>
+          <li data-name="brend"><a href="#" style="color:#006400">Brandovi</a></li>
+        </ul>
+		<ul class="nav navbar-nav" style="color:#006400; font-size:1.7rem">
+			<li><a href="#" style="color:#006400"><img src='images/logic1.jpg'> VIP Brand No1</a></li>
+			<li><a href="#" style="color:#006400"><img src='images/logic2.jpg'> VIP Brand No2</a></li>
+			<li><a href="#" style="color:#006400"><img src='images/logic3.jpg'> VIP Brand No3</a></li>
+		</ul>
+		<ul class="nav navbar-nav">
+			<li><a href="#" style="color:#006400">Kontakt</a></li>
+			<li><a href="#" style="color:#006400">Blog</a></li>
+			<li><a href="#" style="color:#006400">Novosti</a></li>
+		</ul>
+		</div>
+      </nav>
+	 <div id="cart"><h3>Cart</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>proizvoda</th>
+					<th>kolicina</th>
+					<th>cena</th>
+					<th>iznos</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div id ="ukupno"><hr><b>ukupno za naplatu: <span id ="iznos">0</span> RSD</b><hr></div>
+		<div class="row">
+			<div class="col-xs-6"><button class='kupi btn btn-success btn-block'>Kupi :)</button></div>
+			<div class="col-xs-6"><button class='odustani btn btn-info btn-block'>Odustani :(</button></div>
+		</div>
+	 </div>
+	 <div id = "about"></div>
+	 <div id = "brend" class = "pad">
+	 <h2>Brend</h2>
+	 <ul>
+		<li><a>sabihandmade</a></li>
+		<li><a>allnut</a></li>
+		<li><a>nuppu</a></li>
+		<li><a>allmecosmetics</a></li>
+		<li><a>pgstankovic</a></li>
+		<li><a>ProPolisPlus</a></li>
+	 </ul>
+	 </div>
+	 <div id = "category" class = "pad">
+	 <h2>Kategorije</h2>
+	 <ul>
+		<li><a>Nega kose</a></li>
+		<li><a>Nega lica</a></li>
+		<li><a>Nega tela</a></li>
+	 </ul>
+	 </div>
+	<div class="left col-xs-2"></div>
+	<div id = "aktuelno">
+			<h1>Hvala na saradnji</h1>
+			<h3>Uspesno ste kupili sledece proizvode: </h3>
+		<div id="aha">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>proizvoda</th>
+					<th>kolicina</th>
+					<th>cena</th>
+					<th>iznos</th>
+				</tr>
+			</thead>
+			<tbody id="t">
+			</tbody>
+		</table>
+		</div>
+	</div>
+	<script src="js/function.js"></script>
+	<script src="js/leftFunction.js"></script>
+  </body>
+</html>

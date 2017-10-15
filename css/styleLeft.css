@@ -1,0 +1,25 @@
+.left h2{
+	color:#228B22;
+	font-family:podnaslov;
+	text-align:center;
+}
+.left h5{
+	color:#228B22;
+	font-family:naslov;	
+}
+.kategorija{
+	width:100%;
+	border-bottom:1px solid #228B22;
+	text-align:center;
+	cursor: pointer;
+}
+.podkategorija{
+	color:#006400;
+	width:80%;
+	margin: 0 auto;
+	border-bottom:1px solid #006400;
+	text-align:center;
+	font-weight:bold;
+	display:none;
+	cursor: pointer;
+}
