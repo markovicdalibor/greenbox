@@ -1,6 +1,6 @@
 var tes=0;
 var testx=window.location.pathname
-console.log(testx)
+console.log('to mi treba '+testx)
 if (testx=="/C:/Documents%20and%20Settings/Call%20Center/Desktop/GreenBox2410/index.html"){
 	tes=0;
 }
