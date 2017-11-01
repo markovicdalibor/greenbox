@@ -1,7 +1,7 @@
 var tes=0;
 var testx=window.location.pathname
 console.log(testx)
-if (testx=="/C:/Users/Oljica/Desktop/GreenBox2610/index.html"){
+if (testx=="/greenbox/"){
 	tes=0;
 }
 else{
