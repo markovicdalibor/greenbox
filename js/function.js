@@ -1,6 +1,6 @@
 var tes=0;
 var testx=window.location.pathname
-console.log(testx)
+console.log("to trazim"+testx)
 if (testx=="greenbox"){
 	tes=0;
 }
