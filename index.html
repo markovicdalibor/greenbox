@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mr.GreenBox</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/styleLeft.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  
+<div class="container">
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header row">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="radi modal-title">Modal Header</h4>
+			  <div id="slika1" class="col-xs-4"></div>
+			  <div id="slika2" class="col-xs-4"></div>
+			  <div id="slika3" class="col-xs-4"></div>
+            </div>
+            <div class="modal-body">
+              <p id="opis">Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+  
+		<div class="container-fluid prva">
+			<div class="pull-left naziv">
+			<a href="index.html" style="color:#006400">Mr.GreenBox</a>
+			</div>
+		<ul class="pull-right">
+			<li id= "carticon"><a href="#" style="color:#006400"><span id="cou">0</span><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+			<li><a href="#" style="color:#006400"><span class="glyphicon glyphicon-user"></span> registruj se</a></li>
+			<li><a href="#" style="color:#006400"><span class="glyphicon glyphicon-log-in"></span> prijavi se</a></li>
+		</ul>
+		</div>
+    <header>
+		<div id= "naslov">
+        <a href="index.html"><h1 id="br">Mr.Green Box</h1></a>
+		</div>
+        <h2>Natural Beauty</h2>
+	</header>
+	  <nav class="navbar">
+		<div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li data-name="about"><a href="#" style="color:#006400">O nama</a></li>
+		  <li data-name="category"><a href="index.html" style="color:#006400">Aktuelno&Akcija</a></li>
+          <li data-name="brend"><a href="#" style="color:#006400">Brendovi</a></li>
+        </ul>
+		<ul class="nav navbar-nav" style="color:#006400; font-size:1.7rem">
+			<li><a href="#" style="color:#006400"><img src='images/01.png'> Sabihandmade</a></li>
+			<li><a href="#" style="color:#006400"><img src='images/02.png'> Pgstankovic</a></li>
+			<li><a href="#" style="color:#006400"><img src='images/03.png'> Allnut</a></li>
+		</ul>
+		<ul class="nav navbar-nav">
+			<li><a href="#" style="color:#006400">Kontakt</a></li>
+			<li><a href="#" style="color:#006400">Blog</a></li>
+			<li><a href="#" style="color:#006400">Novosti</a></li>
+		</ul>
+		</div>
+      </nav>
+	  
+	  <!--kraj akcija-->
+
+		<div id="cart"><h3>Cart</h3>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>proizvoda</th>
+					<th>kolicina</th>
+					<th>cena</th>
+					<th>iznos</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div id ="ukupno"><hr><b>ukupno za naplatu: <span id ="iznos">0</span> RSD</b><hr></div>
+		<div class="row">
+			<div class="col-xs-6"><button class='kupi btn btn-success btn-block'>Kupi :)</button></div>
+			<div class="col-xs-6"><button class='odustani btn btn-info btn-block'>Odustani :(</button></div>
+		</div>
+	 </div>
+	 <div id = "about"></div>
+	 <div id = "brend" class = "pad">
+	 <h2>Brend</h2>
+	 <ul>
+		<li><a>sabihandmade</a></li>
+		<li><a>allnut</a></li>
+		<li><a>nuppu</a></li>
+		<li><a>allmecosmetics</a></li>
+		<li><a>pgstankovic</a></li>
+		<li><a>ProPolisPlus</a></li>
+	 </ul>
+	 </div>
+
+	<div class="left col-xs-2">
+		<h2>Kategorije</h2>
+		<div id="tabovi">
+			<div class="kategorija" data-name="woman"><h5>Zenska kolekcija</h5></div>
+			<div class="podkategorija">Nega kose</div>
+			<div class="podkategorija">Nega lica</div>
+			<div class="podkategorija">Nega tela</div>
+		</div>
+		<div id="tabovi">
+			<div class="kategorija" data-name="man"><h5>Muska kolekcija</h5></div>
+			<div class="podkategorija">Nega kose</div>
+			<div class="podkategorija">Nega lica</div>
+			<div class="podkategorija">Nega tela</div>
+		</div>
+		<div id="tabovi">
+			<div class="kategorija" data-name="child"><h5>Decija kolekcija</h5></div>
+			<div class="podkategorija">Nega kose</div>
+			<div class="podkategorija">Nega lica</div>
+			<div class="podkategorija">Nega tela</div>
+		</div>
+	</div>
+<!--aktuelno-->
+<div id = "aktuelno" class="col-xs-8">
+<div id="drugi"><h2 id="druginaslov">Aktuelno&Akcija</h2></div>
+	<!--akcija-->
+		<div id ="akcija">
+		
+		</div>
+	
+	<!--ZK-->
+		<div id="woman">
+
+		</div>
+<!--kraj ZK-->
+<!--MK-->
+		<div id="man">
+		
+		</div>
+<!--kraj MK-->
+<!--DK-->
+		<div id="child">
+
+		</div>
+<!--kraj DK-->
+</div>
+<!--kraj aktuelno-->
+	<div class="right col-xs-2">desno</div>
+	<script src="js/function.js"></script>
+	<script src="js/leftFunction.js"></script>
+  </body>
+</html>
