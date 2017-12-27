@@ -1,7 +1,7 @@
 var tes=0;
 var testx=window.location.pathname
 console.log("to trazim"+testx)
-if (testx=="greenbox"){
+if (testx=="/greenbox/index.html"){
 	tes=0;
 }
 else{
