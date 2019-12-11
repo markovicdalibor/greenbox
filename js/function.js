@@ -130,7 +130,7 @@ function removeItem(name){
 	saveCart();
 };
 
-function displayCart(name,price,count){
+/*function displayCart(name,price,count){
 	var forPay = 0;
 	var output = "";
 	$(korpa).each(function(i,e){
@@ -142,7 +142,7 @@ function displayCart(name,price,count){
 	tbody.html(output);
 	iznos.text(forPay);
 	cou.html(countCart());
-};
+};*/
 
 function saveCart(){
 	localStorage.setItem('korpa',JSON.stringify(korpa));
